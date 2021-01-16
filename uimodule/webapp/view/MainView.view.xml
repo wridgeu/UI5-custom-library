@@ -1,0 +1,12 @@
+ <mvc:View controllerName="com.mrb.libraryExample.controller.MainView"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc">
+  <App id="idAppControl" >
+    <pages>
+      <Page title="{i18n>title}">
+        <content></content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>

@@ -1,0 +1,16 @@
+{
+  "generator-easy-ui5": {
+    "projectname": "libraryExample",
+    "namespace": "com.mrb",
+    "platform": "Static webserver",
+    "viewtype": "XML",
+    "viewname": "MainView",
+    "ui5libs": "Content delivery network (OpenUI5)",
+    "newdir": false,
+    "namespaceURI": "com/mrb",
+    "uimodules": [
+      "uimodule"
+    ],
+    "setupCompleted": true
+  }
+}
