@@ -18,9 +18,9 @@ There are a few other ways to get external resources working in your application
 > The `ui5.yaml` is the file that gets pulled in (read) by the UI5 tooling. In there we specify which resources we want the UI5 tooling to use. Those are the final, built resources (the ones you'd share via npm for example). While the `ui5-dev.yaml` is being used to create the library build.
 
 ## Q: Why do we need rollup.js in the library?
-> Someone has to resolve the ES6 modules for us and pre-bundle them so they're read for consumption via UI5. Ever tried using ES6 modules without a bundler? Check out this [blog post](https://blogs.sap.com/2020/12/30/using-ui5-web-components-without-any-framework) by [@christian ](https://github.com/christianp86).
+> Someone has to resolve the ES6 modules for us and pre-bundle them so they're ready for consumption via UI5. Ever tried using ES6 modules without a bundler? Check out this [blog post](https://blogs.sap.com/2020/12/30/using-ui5-web-components-without-any-framework) by [@christian ](https://github.com/christianp86).
 
-## Q: Why didn't you add a theme or explicit renderer to the library?
+## Q: Why didn't you add a theme or explicit renderer.js file to the library?
 > I didn't want to. Plus, there is no need for an explicit `<Control>Renderer.js`, especially not with this minimum example I made. Head over to [ui5-webcomponent-showcase](https://github.com/vobu/ui5-webcomponents-showcase) for a more elaborate example.
 
 ## Q: How did the yarn linking (workspace) work?
@@ -31,8 +31,8 @@ There are a few other ways to get external resources working in your application
 
 ## TODO
 
-[] Adjust some scripts
-[] Adjust the readme
+- [ ] Adjust some scripts
+- [ ] Adjust the readme
 
 ## Thanks...
 I really highly appreciate all the examples out there. Sadly a lot of information regarding Libraries are quite outdated so some of it can feel a bit of detective work, especially when you want to get it "right". Therefore I linked lots of resources that I used right below 🔽🔽
