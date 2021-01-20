@@ -35,7 +35,7 @@ There are a few other ways to get external resources working in your application
 - [ ] Adjust the readme
 
 ## Thanks...
-I really highly appreciate all the examples out there. Sadly a lot of information regarding Libraries are quite outdated so some of it can feel a bit of detective work, especially when you want to get it "right". Therefore I linked lots of resources that I used right below 🔽🔽
+I really highly appreciate all the examples out there. Sadly a lot of information regarding libraries are quite outdated so some of it can feel a bit of detective work, especially when you want to get it "right". Therefore I linked lots of resources that I used right below 🔽🔽. I'm definitely not saying that I'm currently doing it right, there is lots of room for improvement - don't get me wrong. ☺
 ## Credits / Resources
 - The UI5 app was generated with [easy-ui5](https://github.com/SAP)
 - [Develop custom UI5 libraries UI5Con2020 @YT](https://www.youtube.com/watch?v=g3Zskx4MKI0)
