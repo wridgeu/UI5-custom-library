@@ -2,11 +2,11 @@ sap.ui.define([
   "sap/ui/core/mvc/Controller",
   "sap/ui/core/routing/History",
   "sap/ui/core/UIComponent",
-  "com/mrb/libraryExample/model/formatter"
+  "mrb/applibraryconsumption/model/formatter"
 ], function(Controller, History, UIComponent, formatter) {
   "use strict";
 
-  return Controller.extend("com.mrb.libraryExample.controller.BaseController", {
+  return Controller.extend("mrb.applibraryconsumption.controller.BaseController", {
 
     formatter: formatter,
 

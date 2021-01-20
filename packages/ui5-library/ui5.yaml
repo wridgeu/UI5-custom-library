@@ -1,0 +1,14 @@
+specVersion: '2.2'
+metadata:
+  name: ui5lib
+type: library
+framework:
+  name: SAPUI5
+  version: "1.85.2"
+  libraries:
+    - name: sap.ui.core
+    - name: sap.m
+resources:
+  configuration:
+    paths:
+      src: dist/resources

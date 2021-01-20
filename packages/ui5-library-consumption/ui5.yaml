@@ -1,14 +1,10 @@
 specVersion: "2.2"
 metadata:
-  name: libraryExample_uimodule
+  name: libraryconsumption
 type: application
-resources:
-  configuration:
-    paths:
-      webapp: uimodule/webapp
 framework:
   name: OpenUI5
-  version: 1.84.0
+  version: 1.85.0
   libraries:
     - name: sap.ui.core
     - name: sap.m
@@ -20,4 +16,4 @@ server:
       afterMiddleware: compression
       configuration:
         port: 35729
-        path: uimodule/webapp
+        path: webapp

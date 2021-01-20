@@ -1,7 +1,7 @@
 {
   "_version": "1.21.0",
   "sap.app": {
-    "id": "com.mrb.libraryExample",
+    "id": "mrb.applibraryconsumption",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -29,7 +29,7 @@
   "sap.ui5": {
     "flexEnabled": true,
     "rootView": {
-      "viewName": "com.mrb.libraryExample.view.MainView",
+      "viewName": "mrb.applibraryconsumption.view.MainView",
       "type": "XML",
       "async": true,
       "id": "idAppControl"
@@ -39,7 +39,8 @@
       "libs": {
         "sap.ui.core": {},
         "sap.m": {},
-        "sap.ui.layout": {}
+        "sap.ui.layout": {},
+        "ui5lib": {}
       }
     },
     "contentDensities": {
@@ -50,7 +51,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "com.mrb.libraryExample.i18n.i18n"
+          "bundleName": "mrb.applibraryconsumption.i18n.i18n"
         }
       }
     },
@@ -65,7 +66,7 @@
       "config": {
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
-        "viewPath": "com.mrb.libraryExample.view",
+        "viewPath": "mrb.applibraryconsumption.view",
         "controlId": "idAppControl",
         "controlAggregation": "pages",
         "async": true

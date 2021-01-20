@@ -1,11 +1,11 @@
 sap.ui.define([
   "sap/ui/core/UIComponent",
   "sap/ui/Device",
-  "com/mrb/libraryExample/model/models"
+  "mrb/applibraryconsumption/model/models"
 ], function(UIComponent, Device, models) {
   "use strict";
 
-  return UIComponent.extend("com.mrb.libraryExample.Component", {
+  return UIComponent.extend("mrb.applibraryconsumption.Component", {
 
     metadata: {
       manifest: "json"

@@ -1,0 +1,34 @@
+{
+  "name": "ui5-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UI5 Custom Library using UI5 WebComponents",
+  "scripts": {
+    "_build": "npm run clean && npm run rollup && ui5 build --config ui5-dev.yaml",
+    "rollup": "rollup --config",
+    "clean": "rimraf dist/resources/*",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "_build": {
+      "patterns": [
+        "src",
+        "lib"
+      ],
+      "extensions": "js",
+      "quiet": false
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ui5/webcomponents": "^1.0.0-rc.11",
+    "npm-watch": "^0.7.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.36.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {}
+}

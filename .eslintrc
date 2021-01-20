@@ -3,7 +3,8 @@
 		"browser": true
 	},
 	"parserOptions": {
-		"ecmaVersion": 2019
+		"ecmaVersion": 2019,
+		"sourceType": "module"
 	},
 	"globals": {
 		"sap": true,

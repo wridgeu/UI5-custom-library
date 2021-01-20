@@ -1,0 +1,24 @@
+ <mvc:View controllerName="mrb.applibraryconsumption.controller.MainView"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:ui5lib="ui5lib"
+  xmlns:l="sap.ui.layout">
+  <App id="idAppControl" >
+    <pages>
+      <Page id="page-main" title="{i18n>title}">
+        <content>
+          <l:BlockLayout id="layout-main">
+              <l:BlockLayoutRow id="row-main">
+                  <l:BlockLayoutCell id="cell-main" width="100%" backgroundColorSet="ColorSet6" backgroundColorShade="ShadeD">
+                    <ui5lib:Avatar id="custom-lib-control1" image="../resources/img/favicon.ico" size="S"/>
+                    <ui5lib:Avatar id="custom-lib-control2" initials="XS" backgroundColor="Accent7" size="M"/>
+                    <ui5lib:Avatar id="custom-lib-control3" icon="employee" backgroundColor="Accent1" size="XL"/>
+                  </l:BlockLayoutCell>
+              </l:BlockLayoutRow>
+            </l:BlockLayout>
+        </content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>
