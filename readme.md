@@ -33,6 +33,7 @@ There are a few other ways to get external resources working in your application
 
 - [ ] Adjust some scripts
 - [ ] Adjust the readme
+- [ ] Try to add Asset.js-bundling with rollup
 
 ## Thanks...
 I really highly appreciate all the examples out there. Sadly a lot of information regarding libraries are quite outdated so some of it can feel a bit of detective work, especially when you want to get it "right". Therefore I linked lots of resources that I used right below 🔽🔽. I'm definitely not saying that I'm currently doing it right, there is lots of room for improvement - don't get me wrong. ☺
@@ -52,3 +53,5 @@ I really highly appreciate all the examples out there. Sadly a lot of informatio
 - [UI5Lab Library Sample @NPM](https://www.npmjs.com/package/ui5lab-library-simple)
 - [UI5Lab Library Sample @Github](https://github.com/UI5Lab/UI5Lab-library-simple)
 - [Custom Library CRUD by mauriciolauffer](https://github.com/mauriciolauffer/openui5-model-json-crud)
+- [UI5 WebComponents Public Module Imports](https://sap.github.io/ui5-webcomponents/playground/docs/public-module-imports/#internationalization)
+- [Efficient Asset Bundling with UI5 WebComponents](https://github.com/SAP/ui5-webcomponents/blob/master/docs/Assets.md#bundling)
