@@ -4,8 +4,11 @@
   "private": true,
   "description": "A test repository to learn how to create a small library and how to consume it",
   "scripts": {
-    "setup": "yarn",
-    "buildLib": "cd packages/ui5-library/ && yarn _build"
+    "ui:start": "cd packages/ui5-library-consumption/ && yarn start",
+    "ui:init:start": "yarn buildLib && cd packages/ui5-library-consumption/ && yarn start",
+    "lib:dev": "cd packages/ui5-library/ && yarn watch",
+    "lib:build": "cd packages/ui5-library/ && yarn _build",
+    "setup": "yarn"
   },
   "workspaces":[
     "packages/*"

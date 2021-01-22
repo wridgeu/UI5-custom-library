@@ -13,7 +13,8 @@
     "_build": {
       "patterns": [
         "src",
-        "lib"
+        "lib",
+        "./rollup.config.js"
       ],
       "extensions": "js",
       "quiet": false
