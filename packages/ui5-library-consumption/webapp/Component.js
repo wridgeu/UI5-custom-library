@@ -1,8 +1,7 @@
 sap.ui.define([
   "sap/ui/core/UIComponent",
-  "sap/ui/Device",
   "mrb/applibraryconsumption/model/models"
-], function(UIComponent, Device, models) {
+], function(UIComponent, models) {
   "use strict";
 
   return UIComponent.extend("mrb.applibraryconsumption.Component", {

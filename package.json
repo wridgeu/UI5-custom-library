@@ -10,11 +10,10 @@
     "lib:build": "cd packages/ui5-library/ && yarn _build",
     "setup": "yarn"
   },
-  "workspaces":[
+  "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "@openui5/ts-types": "^1.60.5",
-    "copyfiles": "^2.4.1"
+    "@openui5/ts-types": "^1.60.5"
   }
 }

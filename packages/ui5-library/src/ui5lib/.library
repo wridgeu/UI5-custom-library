@@ -6,7 +6,7 @@
   <copyright>${copyright}</copyright>
   <version>${version}</version>
 
-  <documentation>UI5 Controls for Testing</documentation>
+  <documentation>UI5 Control Library - Test with UI5 WebComponents</documentation>
 
   <dependencies>
     <dependency>
