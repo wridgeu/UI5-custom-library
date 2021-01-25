@@ -33,6 +33,8 @@ There are a few other ways to get external resources working in your application
 
 - [ ] Adjust some scripts
 - [ ] Adjust the readme
+- [ ] Check messagebundles & manifest (add to readme if necessary)
+- [ ] Add testing (☢)
 - [ ] Try to add Asset.js or generic Icon bundling with rollup (`@ui5/webcomponents/dist/Assets.js`)
 
 ## Thanks...
