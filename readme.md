@@ -12,7 +12,7 @@ There are a few other ways to get external resources working in your application
 
 - For example using the `resourceRoots` attribute within the `manifest.json` or `index.html` file. This is especially then useful when you added the external library/dependency as actual files into your application folder (e.g. actually creating a `thirdparty` folder and putting the files in there).
 
-- Another option of adding external (non-UI5) dependencies would be via the usage of [project-shims](https://sap.github.io/ui5-tooling/pages/extensibility/ProjectShims/) in tandem to adding the dependencies to the `package.json`.
+- Another option of adding external (non-UI5) dependencies would be via the usage of [Project-Shims](https://sap.github.io/ui5-tooling/pages/extensibility/ProjectShims/) in tandem to adding the dependencies to the `package.json` as seen in this [example](https://github.com/matz3/ui5con20-ui5-tooling/blob/master/demo-project/packages/library/ui5.yaml). You can additionally make use of the (`sap.ui.loader.config`)(https://openui5.hana.ondemand.com/api/sap.ui.loader#overview) to provide the shim before your actual `sap.ui.require` statement as seen [here](https://github.com/matz3/ui5con20-ui5-tooling/blob/master/demo-project/packages/library/src/ui5con20/library/Chart.js).
 
 ## Q: Why are there different `.yaml` files in the `ui5-library` folder?
 > The `ui5.yaml` is the file that gets pulled in (read) by the UI5 tooling. In there we specify which resources we want the UI5 tooling to use. Those are the final, built resources (the ones you'd share via npm for example). While the `ui5-dev.yaml` is being used to create the library build.
