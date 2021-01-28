@@ -11,6 +11,7 @@ sap.ui.define([
         // delegate further initialization of this library to the Core
         sap.ui.getCore().initLibrary({
             name: "ui5lib",
+            version: "${version}",
             dependencies: ["sap.ui.core"],
             types: [],
             interfaces: [],
