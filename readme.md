@@ -33,7 +33,6 @@ There are a few other ways to get external resources working in your application
 > I wouldn't say so. It is one way for the UI5 tooling to retrieve information about your project but It's not necessary. In case there is none, the UI5 tooling will create one for you during the build process.
 
 ## TODO
-
 - [X] Adjust some scripts
 - [X] Adjust the readme
 - [X] Check messagebundles - [info](https://github.com/SAP/openui5/blob/dc225e1c87bcdfe64e6c67972f6a7bd561cc00d7/docs/controllibraries.md#translation-file-messagebundleproperties-and-translation)
