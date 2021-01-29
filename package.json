@@ -6,8 +6,9 @@
   "scripts": {
     "ui:start": "cd packages/ui5-library-consumption/ && yarn start",
     "ui:init:start": "yarn buildLib && cd packages/ui5-library-consumption/ && yarn start",
-    "lib:dev": "cd packages/ui5-library/ && yarn watch",
-    "lib:build": "cd packages/ui5-library/ && yarn _build",
+    "ctrllib:dev": "cd packages/ui5-library/ && yarn watch",
+    "ctrllib:build": "cd packages/ui5-library/ && yarn _build",
+    "themelib:build": "cd packages/ui5-theme-library/ && yarn build",
     "setup": "yarn"
   },
   "workspaces": [
