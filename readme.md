@@ -36,6 +36,7 @@ There are a few other ways to get external resources working in your application
 - [X] Adjust some scripts
 - [X] Adjust the readme
 - [X] Check messagebundles - [info](https://github.com/SAP/openui5/blob/dc225e1c87bcdfe64e6c67972f6a7bd561cc00d7/docs/controllibraries.md#translation-file-messagebundleproperties-and-translation)
+- [ ] Add theme-library learnings to README
 ## Thanks...
 I really highly appreciate all the examples out there. Sadly a lot of information regarding libraries are quite outdated so some of it can feel a bit of detective work, especially when you want to get it "right". Therefore I linked lots of resources that I used right below 🔽🔽. I'm definitely not saying that I'm currently doing it right, there is lots of room for improvement - don't get me wrong. ☺
 ## Credits / Resources
