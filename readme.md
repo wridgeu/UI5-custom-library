@@ -29,14 +29,14 @@ There are a few other ways to get external resources working in your application
 ## Q: Why are the project-, module- and application IDs so ... weird?
 > Well... I do suck at naming things... so ... there is that. I mean come on ... `libraryconsumption`, `applibraryconsumption`, `ui5-library`, `ui5lib` and `ui5-library-consumption` aren't that bad, are they? 😜😂
 
+## Q: Is the manifest.json file necessary for a library?
+> I wouldn't say so. It is one way for the UI5 tooling to retrieve information about your project but It's not necessary. In case there is none, the UI5 tooling will create one for you during the build process.
+
 ## TODO
 
-- [ ] Adjust some scripts
-- [ ] Adjust the readme
-- [ ] Check messagebundles & manifest (add to readme if necessary)
-- [ ] Add testing (☢)
-- [ ] Try to add Asset.js or generic Icon bundling with rollup (`@ui5/webcomponents/dist/Assets.js`)
-
+- [X] Adjust some scripts
+- [X] Adjust the readme
+- [X] Check messagebundles - [info](https://github.com/SAP/openui5/blob/dc225e1c87bcdfe64e6c67972f6a7bd561cc00d7/docs/controllibraries.md#translation-file-messagebundleproperties-and-translation)
 ## Thanks...
 I really highly appreciate all the examples out there. Sadly a lot of information regarding libraries are quite outdated so some of it can feel a bit of detective work, especially when you want to get it "right". Therefore I linked lots of resources that I used right below 🔽🔽. I'm definitely not saying that I'm currently doing it right, there is lots of room for improvement - don't get me wrong. ☺
 ## Credits / Resources
@@ -54,6 +54,7 @@ I really highly appreciate all the examples out there. Sadly a lot of informatio
 - [UI5Lab Library overview](https://ui5lab.io/browser/index.html)
 - [UI5Lab Library Sample @NPM](https://www.npmjs.com/package/ui5lab-library-simple)
 - [UI5Lab Library Sample @Github](https://github.com/UI5Lab/UI5Lab-library-simple)
+- [Step by Step Library creation](https://blogs.sap.com/2018/01/15/step-by-step-procedure-to-create-sapui5-library-with-custom-controls-and-consume-the-library-into-sapui5-applications/)
 - [Custom Library CRUD by mauriciolauffer](https://github.com/mauriciolauffer/openui5-model-json-crud)
 - [UI5 WebComponents Public Module Imports](https://sap.github.io/ui5-webcomponents/playground/docs/public-module-imports/#internationalization)
 - [Efficient Asset Bundling with UI5 WebComponents](https://github.com/SAP/ui5-webcomponents/blob/master/docs/Assets.md#bundling)
