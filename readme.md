@@ -1,6 +1,6 @@
 # UI5 Library Playground
 
-This is a playground repository for learning (learning-by-doing) and understanding UI5 libraries. To be more specific custom UI5 control libraries.
+This is a playground repository for learning (learning-by-doing) and understanding UI5 libraries. To be more specific custom UI5 control and theme libraries.
 
 When creating this monorepository I have looked through several resources mainly [@vobus](https://github.com/vobu) [ui5-webcomponent-showcase](https://github.com/vobu/ui5-webcomponents-showcase). As this is the first real monorepository of mine it was a bit of a learning curve but I enjoyed it.
 
