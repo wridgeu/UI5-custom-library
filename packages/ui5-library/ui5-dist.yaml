@@ -1,0 +1,14 @@
+specVersion: '2.2'
+metadata:
+  name: ui5lib
+  copyright: |-
+    Testing Project:
+      * This project is for testing and learning purposes only.
+      * This isn't really a copyright text, refer to the readme for more information.
+type: library
+framework:
+  name: OpenUI5
+  version: 1.85.2
+  libraries:
+    - name: sap.ui.core
+    - name: sap.m

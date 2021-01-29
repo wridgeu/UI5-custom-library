@@ -4,7 +4,7 @@
   "private": true,
   "description": "UI5 Custom Library using UI5 WebComponents",
   "scripts": {
-    "_build": "npm run clean && npm run rollup && ui5 build --config ui5-dev.yaml --verbose",
+    "_build": "npm run clean && npm run rollup && ui5 build --config ui5-dist.yaml --verbose",
     "rollup": "rollup --config",
     "clean": "rimraf dist/resources/*",
     "watch": "npm-watch"
@@ -20,8 +20,13 @@
       "quiet": false
     }
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "custom-library",
+    "controlllibrary",
+    "ui5",
+    "ui5-tooling"
+  ],
+  "author": "Marco Beier",
   "license": "ISC",
   "devDependencies": {
     "@ui5/webcomponents": "^1.0.0-rc.11",

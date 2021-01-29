@@ -4,7 +4,7 @@ import resolve from "rollup-plugin-node-resolve";
 export default {
     input: "lib/bundle.js",
     output: {
-        file: "dist/resources/ui5lib/lib/bundle.js",
+        file: "dist/resources/ui5lib/avatar/lib/bundle.js",
         format: "amd",
         amd: {
             define: "sap.ui.define"

@@ -1,5 +1,6 @@
 /**
- * Initialization Code and shared classes of library ui5lib.
+ * Initialization Code and shared classes of library `ui5lib.avatar`.
+ * ${copyright}
  */
 sap.ui.define([
     "sap/ui/core/Core",
@@ -10,7 +11,7 @@ sap.ui.define([
 
         // delegate further initialization of this library to the Core
         sap.ui.getCore().initLibrary({
-            name: "ui5lib",
+            name: "ui5lib.avatar",
             version: "${version}",
             dependencies: ["sap.ui.core"],
             types: [],
@@ -26,9 +27,9 @@ sap.ui.define([
          * The "ui5lib" Library
          * According to https://sapui5.hana.ondemand.com/#/topic/bd039ed5f99e4d3f8d020b0da62f9d85
          * @namespace
-         * @alias ui5lib
+         * @alias ui5lib.avatar
          */
-        return ui5lib;
+        return ui5lib.avatar;
 
         //TODO: Refactor and include all needed types here
         //https://sapui5.hana.ondemand.com/#/topic/bd039ed5f99e4d3f8d020b0da62f9d85
