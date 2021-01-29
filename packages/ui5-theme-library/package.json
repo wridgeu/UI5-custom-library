@@ -1,0 +1,19 @@
+{
+  "name": "ui5-theme-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Custom Theme Library",
+  "scripts": {
+    "serve": "ui5 serve -o",
+    "build": "ui5 build --config ui5-dist.yaml"
+  },
+  "keywords": [
+    "testing",
+    "custom-theming",
+    "learning",
+    "theme-library",
+    "ui5"
+  ],
+  "author": "Marco Beier",
+  "license": "ISC"
+}

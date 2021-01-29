@@ -4,10 +4,10 @@ metadata:
 type: application
 framework:
   name: OpenUI5
-  version: 1.85.0
+  version: 1.85.2
   libraries:
-    - name: sap.ui.core
     - name: sap.m
+    - name: sap.ui.core
     - name: sap.ui.layout
     - name: themelib_sap_fiori_3
 server:

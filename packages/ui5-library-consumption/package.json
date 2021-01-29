@@ -10,7 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "ui5-library": "^1.0.0"
+    "ui5-library": "^1.0.0",
+    "ui5-theme-library": "^1.0.0"
   },
   "devDependencies": {
     "@ui5/cli": "^2.8.0",
@@ -22,6 +23,7 @@
   "ui5": {
     "dependencies": [
       "ui5-library",
+      "ui5-theme-library",
       "ui5-middleware-livereload"
     ]
   }

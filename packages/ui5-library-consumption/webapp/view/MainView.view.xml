@@ -2,7 +2,7 @@
   displayBlock="true"
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc"
-  xmlns:ui5lib="ui5lib"
+  xmlns:ui5lib="ui5lib.avatar"
   xmlns:l="sap.ui.layout">
   <App id="idAppControl" >
     <pages>

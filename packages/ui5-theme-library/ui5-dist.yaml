@@ -1,20 +1,16 @@
-specVersion: "2.2"
+specVersion: '2.2'
 metadata:
-  name: libraryconsumption
+  name: ui5-theme-library
   copyright: |-
     Testing Project:
       * This project is for testing and learning purposes only.
       * This isn't really a copyright text, refer to the readme for more information.
-type: application
+type: theme-library
 framework:
   name: OpenUI5
   version: 1.85.2
   libraries:
-    - name: sap.ui.core
     - name: sap.m
+    - name: sap.ui.core
     - name: sap.ui.layout
     - name: themelib_sap_fiori_3
-resources:
-  configuration:
-    paths:
-      webapp: dist

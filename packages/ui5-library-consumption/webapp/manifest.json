@@ -40,7 +40,7 @@
         "sap.ui.core": {},
         "sap.m": {},
         "sap.ui.layout": {},
-        "ui5lib": {}
+        "ui5lib.avatar": {}
       }
     },
     "contentDensities": {
