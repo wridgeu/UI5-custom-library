@@ -36,6 +36,7 @@ There are a few other ways to get external resources working in your application
 - [ ] Check messagebundles & manifest (add to readme if necessary)
 - [ ] Add testing (☢)
 - [ ] Try to add Asset.js or generic Icon bundling with rollup (`@ui5/webcomponents/dist/Assets.js`)
+- [ ] Add a theme-library
 
 ## Thanks...
 I really highly appreciate all the examples out there. Sadly a lot of information regarding libraries are quite outdated so some of it can feel a bit of detective work, especially when you want to get it "right". Therefore I linked lots of resources that I used right below 🔽🔽. I'm definitely not saying that I'm currently doing it right, there is lots of room for improvement - don't get me wrong. ☺
