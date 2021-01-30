@@ -4,7 +4,7 @@
   "private": true,
   "description": "Custom Theme Library",
   "scripts": {
-    "serve": "ui5 serve -o",
+    "start": "ui5 serve -o",
     "_build": "yarn clean && ui5 build --config ui5-dist.yaml",
     "clean": "rimraf dist/resources/*",
     "watch": "npm-watch"
