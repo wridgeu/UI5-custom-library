@@ -8,8 +8,8 @@
     "ui:init:start": "yarn buildLib && cd packages/ui5-library-consumption/ && yarn start",
     "ctrllib:dev": "cd packages/ui5-library/ && yarn watch",
     "ctrllib:build": "cd packages/ui5-library/ && yarn _build",
-    "themelib:build": "cd packages/ui5-theme-library/ && yarn build",
-    "setup": "yarn"
+    "themelib:dev": "cd packages/ui5-theme-library/ && yarn watch",
+    "themelib:build": "cd packages/ui5-theme-library/ && yarn _build"
   },
   "workspaces": [
     "packages/*"
