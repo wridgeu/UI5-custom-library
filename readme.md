@@ -29,9 +29,9 @@ $> yarn
 ## Building the Library Resources
 
 ```bash
-# The UI5 application pulls in the built resources within the respective `dist` folders of the libraries.
+# The UI5 application pulls the library resources from the `dist` folder.
 # In order to make that work, we first need to build our resources.
-# To do so, I have prepared the following scripts:
+# To do so execute the following scripts:
 
 $> yarn ctrllib:build 
 
