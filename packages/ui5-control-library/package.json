@@ -1,5 +1,5 @@
 {
-  "name": "ui5-library",
+  "name": "ui5-control-library",
   "version": "1.0.0",
   "private": true,
   "description": "UI5 Custom Library using UI5 WebComponents",
