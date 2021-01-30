@@ -43,7 +43,7 @@ $> yarn themelib:build
 ## Developing a Library
 
 ```bash
-# In order to not have to manually rebuild the libraries after each change, there are the following watch-commands:
+# In order to not have to manually rebuild the libraries after each change use:
 
 $> yarn ctrllib:dev
 
@@ -56,7 +56,8 @@ $> yarn themelib:dev
 
 ```bash
 # The UI5 applications helps to demonstrate the consumption of the libraries.
-# You can either run it in development mode or build it and run it from the `dist` folder. Either way, make sure to have the libraries it consumes built first.
+# You can either run it in development mode or build it and run it from the `dist` folder. 
+# Either way, make sure to have the libraries it consumes built first.
 
 # To just start the application use:
 $> yarn ui:start:dev
