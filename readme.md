@@ -18,7 +18,7 @@ I'm well aware that it does look a bit like a copy of [@vobus](https://github.co
 
 ## Initialize the Repository
 
-The commands mentioned here are all to be run within the root of the repository. Alternatively you can of course run them each inside their respective project folders.
+The wrapper commands mentioned here are all to be run within the root of the repository. Alternatively you can of course directly run the wrapped commands each inside their respective project folders.
 
 ```sh
 # Setup the repository within the root and do all the dependency linking.
@@ -94,6 +94,10 @@ $> yarn ui:init:start:build
 ## Q: Is the manifest.json file necessary for a library?
 
 > I wouldn't say so. It is one way for the UI5 tooling to retrieve information (for e.g. the build process) about your project but It's not necessary. In case there is none, the UI5 tooling will create one for you during the build process.
+
+# TODO
+
+- [ ] Add README for subfolders so there are detailed explanations/infos
 
 # Thanks!
 
