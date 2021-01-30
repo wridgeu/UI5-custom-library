@@ -5,7 +5,18 @@
   "description": "Custom Theme Library",
   "scripts": {
     "serve": "ui5 serve -o",
-    "build": "ui5 build --config ui5-dist.yaml"
+    "_build": "yarn clean && ui5 build --config ui5-dist.yaml",
+    "clean": "rimraf dist/resources/*",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "_build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "less",
+      "quiet": false
+    }
   },
   "keywords": [
     "testing",
@@ -15,5 +26,10 @@
     "ui5"
   ],
   "author": "Marco Beier",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "npm-watch": "^0.7.0",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {}
 }
