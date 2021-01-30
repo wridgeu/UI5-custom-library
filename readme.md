@@ -8,7 +8,7 @@ In a few examples from [@vobu](https://github.com/vobu) or [@matz3](https://gith
 
 I'm well aware that it does look a bit like a copy of [@vobus](https://github.com/vobu) showcase repository (it isn't, I actually created the files myself 👀). I used it as main example and wanted to learn not only [yarn](https://yarnpkg.com/) but also [rollup.js](https://rollupjs.org/guide/en/) and the combination of [ui5 webcomponents](https://sap.github.io/ui5-webcomponents/) with [ui5 custom controls](https://sapui5.hana.ondemand.com/#/topic/8dcab0011d274051808f959800cabf9f) and [ui5 custom libraries](https://github.com/SAP/openui5/blob/dc225e1c87bcdfe64e6c67972f6a7bd561cc00d7/docs/controllibraries.md). Of course ... mainly the library part but it was the mixture of everything combined that made it enjoyable to learn. In addition to that it was the first time using "basic" things like `npm-watch`. Sounds basic? What can I say, I didn't know it exists and mainly develop in ABAP during the daytime. 😂
 
-There are a few other ways to get external resources working in your application.
+## There are a few other ways to get external resources working in your application
 
 - For example using the `resourceRoots` attribute within the `manifest.json` or `index.html` file. This is especially then useful when you added the external library/dependency as actual files into your application folder (e.g. actually creating a `thirdparty` folder and putting the files in there).
 
@@ -16,7 +16,9 @@ There are a few other ways to get external resources working in your application
 
 # Using this Repository
 
-### Initialize the Repository
+## Initialize the Repository
+
+The commands mentioned here are all to be run within the root of the repository. Alternatively you can of course run them each inside their respective project folders.
 
 ```sh
 # Setup the repository within the root and do all the dependency linking.
@@ -24,12 +26,12 @@ There are a few other ways to get external resources working in your application
 $> yarn
 ```
 
-### Building the Resources
+## Building the Library Resources
 
 ```bash
 # The UI5 application pulls in the built resources within the respective `dist` folders of the libraries.
 # In order to make that work, we first need to build our resources.
-# To do so, I have prepared the following scripts within the root of the repository.
+# To do so, I have prepared the following scripts:
 
 $> yarn ctrllib:build 
 
@@ -38,10 +40,10 @@ $> yarn ctrllib:build
 $> yarn themelib:build
 ```
 
-### Development
+## Developing a Library
 
 ```bash
-# In order to not have to manually rebuild the libraries after each change, there are the following watch-commands - also within the root of the repository.
+# In order to not have to manually rebuild the libraries after each change, there are the following watch-commands:
 
 $> yarn ctrllib:dev
 
@@ -50,30 +52,54 @@ $> yarn ctrllib:dev
 $> yarn themelib:dev
 ```
 
+## Starting or Building the UI5 Application
+
+```bash
+# The UI5 applications helps to demonstrate the consumption of the libraries.
+# You can either run it in development mode or build it and run it from the `dist` folder. Either way, make sure to have the libraries it consumes built first.
+
+# To just start the application use:
+$> yarn ui:start:dev
+
+# To build both libraries and start the application use:
+$> yarn ui:init:start:dev
+
+# Run the build process of both libraries and the aplication & start the built application:
+$> yarn ui:init:start:build
+```
+
 # Question & Answer
 
 ## Q: Why are there different `.yaml` files in the folders?
+
 > The `ui5.yaml` is the file that gets pulled in (read) by the UI5 tooling. In there we specify which resources we want the UI5 tooling to use. Those are the final, built resources (the ones you'd share via npm for example). While the `ui5-dist.yaml` is being used to create the library or application build.
 
 ## Q: Why do we need rollup.js in the control library?
+
 > Someone has to resolve the ES6 modules for us and pre-bundle them so they're ready for consumption via UI5. Ever tried using ES6 modules without a bundler? Check out this [blog post](https://blogs.sap.com/2020/12/30/using-ui5-web-components-without-any-framework) by [@christian](https://github.com/christianp86). For already build/bundled (non ES6) assets we can use Project-Shims, as mentioned earlier.
 
 ## Q: Why didn't you add a theme or explicit renderer.js file to the control library?
+
 > I didn't want to. Plus, there is no need for an explicit `<Control>Renderer.js`, especially not with this minimum example I made. Head over to [ui5-webcomponent-showcase](https://github.com/vobu/ui5-webcomponents-showcase) for a more elaborate example.
 
 ## Q: How does the yarn linking (workspace) work?
+
 > It only works for private packages so you have to define the `private` attribute in all of your `package.json` files. Having done that, you define the `workspace` attribute in the root of your poject. After that you should be all set and just typing in `yarn` should do the trick for ya.
 
 ## Q: Why are the project-, module- and application IDs so ... weird?
+
 > Well... I suck at naming things. 😂
 
 ## Q: Is the manifest.json file necessary for a library?
+
 > I wouldn't say so. It is one way for the UI5 tooling to retrieve information (for e.g. the build process) about your project but It's not necessary. In case there is none, the UI5 tooling will create one for you during the build process.
-> 
-# Thanks...
+
+# Thanks!
+
 I really highly appreciate all the examples out there. Sadly a lot of information regarding libraries are quite outdated so some of it can feel a bit of detective work, especially when you want to get it "right". Therefore I linked lots of resources that I used right below 🔽🔽. I'm definitely not saying that I'm currently doing it right, there is lots of room for improvement - don't get me wrong. ☺
 
 # Credits / Resources
+
 - The UI5 app was generated with [easy-ui5](https://github.com/SAP)
 - [Develop custom UI5 libraries UI5Con2020 @YT](https://www.youtube.com/watch?v=g3Zskx4MKI0)
 - [UI5 Tooling 2020 @YT](https://www.youtube.com/watch?v=8IHoVJLKN34)
