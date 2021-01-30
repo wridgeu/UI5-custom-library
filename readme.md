@@ -8,7 +8,7 @@ In a few examples from [@vobu](https://github.com/vobu) or [@matz3](https://gith
 
 I'm well aware that it does look a bit like a copy of [@vobus](https://github.com/vobu) showcase repository (it isn't, I actually created the files myself 👀). I used it as main example and wanted to learn not only [yarn](https://yarnpkg.com/) but also [rollup.js](https://rollupjs.org/guide/en/) and the combination of [ui5 webcomponents](https://sap.github.io/ui5-webcomponents/) with [ui5 custom controls](https://sapui5.hana.ondemand.com/#/topic/8dcab0011d274051808f959800cabf9f) and [ui5 custom libraries](https://github.com/SAP/openui5/blob/dc225e1c87bcdfe64e6c67972f6a7bd561cc00d7/docs/controllibraries.md). Of course ... mainly the library part but it was the mixture of everything combined that made it enjoyable to learn. In addition to that it was the first time using "basic" things like `npm-watch`. Sounds basic? What can I say, I didn't know it exists and mainly develop in ABAP during the daytime. 😂
 
-## There are a few other ways to get external resources working in your application
+## Other ways of getting external resources working in your application
 
 - For example using the `resourceRoots` attribute within the `manifest.json` or `index.html` file. This is especially then useful when you added the external library/dependency as actual files into your application folder (e.g. actually creating a `thirdparty` folder and putting the files in there).
 
