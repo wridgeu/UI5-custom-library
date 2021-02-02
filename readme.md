@@ -73,7 +73,7 @@ $> yarn ui:init:start:build
 
 ## Q: Why are there different `.yaml` files in the folders?
 
-> The `ui5.yaml` is the file that gets pulled in (read) by the UI5 tooling. In there we specify which resources we want the UI5 tooling to use. Those are the final, built resources (the ones you'd share via npm for example). While the `ui5-dist.yaml` is being used to create the library or application build.
+> The `ui5.yaml` is the file that gets pulled in (read) by the UI5 tooling. In there we specify which resources we want the UI5 tooling to use. Those are the final, built resources (the ones you'd share via npm for example). While the `ui5-dev.yaml` is being used to create the library or application build.
 
 ## Q: Why do we need rollup.js in the control library?
 

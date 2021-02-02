@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ui5 serve -o index.html",
     "build": "ui5 build self-contained --all --dest ./dist",
-    "start:build": "ui5 serve -o index.html --config ui5-dist.yaml", 
+    "start:build": "ui5 serve -o index.html --config ui5-dev.yaml", 
     "lint": "eslint ."
   },
   "dependencies": {

@@ -5,7 +5,7 @@
   "description": "UI5 Custom Library using UI5 WebComponents",
   "scripts": {
     "start": "ui5 serve -o",
-    "_build": "yarn run clean && yarn run rollup && ui5 build --config ui5-dist.yaml --verbose",
+    "_build": "yarn run clean && yarn run rollup && ui5 build --config ui5-dev.yaml --verbose",
     "rollup": "rollup --config",
     "clean": "rimraf dist/resources/*",
     "watch": "npm-watch"

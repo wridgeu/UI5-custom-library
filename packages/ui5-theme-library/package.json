@@ -5,7 +5,7 @@
   "description": "Custom Theme Library",
   "scripts": {
     "start": "ui5 serve -o",
-    "_build": "yarn clean && ui5 build --config ui5-dist.yaml",
+    "_build": "yarn clean && ui5 build --config ui5-dev.yaml",
     "clean": "rimraf dist/resources/*",
     "watch": "npm-watch"
   },
