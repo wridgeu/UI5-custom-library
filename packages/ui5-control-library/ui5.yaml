@@ -1,6 +1,6 @@
 specVersion: '2.2'
 metadata:
-  name: ui5lib
+  name: ui5-control-library
 type: library
 framework:
   name: OpenUI5

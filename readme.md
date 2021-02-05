@@ -12,7 +12,7 @@ I'm well aware that it does look a bit like a copy of [@vobus](https://github.co
 
 - For example using the `resourceRoots` attribute within the `manifest.json` or `index.html` file. This is especially then useful when you added the external library/dependency as actual files into your application folder (e.g. actually creating a `thirdparty` folder and putting the files in there).
 
-- Another option of adding external (non-UI5) dependencies would be via the usage of [Project-Shims](https://sap.github.io/ui5-tooling/pages/extensibility/ProjectShims/) in tandem to adding the dependencies to the `package.json` as seen in this [example](https://github.com/matz3/ui5con20-ui5-tooling/blob/master/demo-project/packages/library/ui5.yaml) in addition to the usage of the [`sap.ui.loader.config`](https://openui5.hana.ondemand.com/api/sap.ui.loader#overview) to provide the shim before your actual `sap.ui.require` statement as seen [here](https://github.com/matz3/ui5con20-ui5-tooling/blob/master/demo-project/packages/library/src/ui5con20/library/Chart.js).
+- Another option of adding external (non-UI5, 3rd party) dependencies would be via the usage of [Project-Shims](https://sap.github.io/ui5-tooling/pages/extensibility/ProjectShims/) in tandem to adding the dependencies to the `package.json` as seen in this [example](https://github.com/matz3/ui5con20-ui5-tooling/blob/master/demo-project/packages/library/ui5.yaml) in addition to the usage of the [`sap.ui.loader.config`](https://openui5.hana.ondemand.com/api/sap.ui.loader#overview) to provide a Runtime-Shim before your actual `sap.ui.require` statement (to not pollute global scope at dev-time)as seen [here](https://github.com/matz3/ui5con20-ui5-tooling/blob/master/demo-project/packages/library/src/ui5con20/library/Chart.js) or [here](https://github.com/SAP/openui5/blob/master/src/sap.ui.codeeditor/src/sap/ui/codeeditor/CodeEditor.js#L5-L23).
 
 # Using this Repository
 
@@ -79,9 +79,9 @@ $> yarn ui:init:start:build
 
 > Someone has to resolve the ES6 modules for us and pre-bundle them so they're ready for consumption via UI5. Ever tried using ES6 modules without a bundler? Check out this [blog post](https://blogs.sap.com/2020/12/30/using-ui5-web-components-without-any-framework) by [@christian](https://github.com/christianp86). For already build/bundled (non ES6) assets we can use Project-Shims, as mentioned earlier.
 
-## Q: Why didn't you add a theme or explicit renderer.js file to the control library?
+## Q: Is a <Control>Renderer.js file necessary?
 
-> I didn't want to. Plus, there is no need for an explicit `<Control>Renderer.js`, especially not with this minimum example I made. Head over to [ui5-webcomponent-showcase](https://github.com/vobu/ui5-webcomponents-showcase) for a more elaborate example.
+> Generally speaking it isn't. It does however make the library more readable and clearly seperated. Head over to [ui5-webcomponent-showcase](https://github.com/vobu/ui5-webcomponents-showcase) for a more elaborate example repository.
 
 ## Q: How does the yarn linking (workspace) work?
 
@@ -91,13 +91,9 @@ $> yarn ui:init:start:build
 
 > Well... I suck at naming things. 😂
 
-## Q: Is the manifest.json file necessary for a library?
+## Q: Is the `.library` file necessary for a library?
 
-> I wouldn't say so. It is one way for the UI5 tooling to retrieve information (for e.g. the build process) about your project but It's not necessary. In case there is none, the UI5 tooling will create one for you during the build process.
-
-# TODO
-
-- [ ] Add README for subfolders so there are detailed explanations/infos
+> I wouldn't say so. It is one way for the UI5 tooling to retrieve information (for e.g. the build process) about your project but It's not necessary. The UI5 tooling mainly takes it's information from the `manifest.json` file. In case you don't have a `manifest.json` but a `.library` file, the tooling will pull needed information from the `.library` file and generate a `.manifest.json` file during the build process for you.
 
 # Thanks!
 

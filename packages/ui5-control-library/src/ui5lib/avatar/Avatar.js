@@ -4,15 +4,17 @@ sap.ui.define([
     "sap/m/AvatarImageFitType",
     "sap/m/AvatarShape",
     "sap/m/AvatarSize",
-], (Control, AvatarColor, AvatarImageType, AvatarShape, AvatarSize) => {
+    "./AvatarRenderer"
+], (Control, AvatarColor, AvatarImageType, AvatarShape, AvatarSize, AvatarRenderer) => {
     "use strict";
     /**
      * Mapping of data types from:
      * - https://sapui5.hana.ondemand.com/#/api/sap.m.Avatar and
      * - https://sap.github.io/ui5-webcomponents/playground/components/Avatar/
      */
-    const extObj = {
+    return Control.extend("ui5lib.avatar.AvatarComponent", /** @lends ui5lib.Avatar.AvatarComponent.prototype */ {
         metadata: {
+            library: "ui5lib.avatar",
             properties: {
                 accessibleName: { type: "string", defaultValue: "" },
                 backgroundColor: { type: "sap.m.AvatarColor", defaultValue: AvatarColor.Accent6 },
@@ -26,33 +28,6 @@ sap.ui.define([
             },
             events: {}
         },
-        renderer: {
-            apiVersion: 2,
-
-            /**
-             * Renders the HTML for the control, using the provided {@link sap.ui.core.RenderManager}.
-             * Info: could be extracted into it's own '<ControlName>Renderer'-file
-             * @param {sap.ui.core.RenderManager} oRm RenderManager object
-             * @param {sap.ui.core.Control} oControl An object representation of the control that will be rendered
-             */
-            render(oRM, oAvatar) {
-                oRM.openStart("ui5-avatar", oAvatar);
-                oRM.attr("accessible-name", oAvatar.getAccessibleName());
-                oRM.attr("background-color", oAvatar.getBackgroundColor());
-                oRM.attr("icon", oAvatar.getIcon());
-                oRM.attr("image", oAvatar.getImage());
-                oRM.attr("image-fit-type", oAvatar.getImageFitType());
-                oRM.attr("initials", oAvatar.getInitials());
-                oRM.attr("interactive", oAvatar.getInteractive());
-                oRM.attr("shape", oAvatar.getShape());
-                oRM.attr("size", oAvatar.getSize());
-                oRM.openEnd();
-                oRM.close("ui5-avatar");
-            }
-        }
-    };
-
-    const Avatar = Control.extend("ui5lib.Avatar", extObj);
-
-    return Avatar;
+        renderer: AvatarRenderer
+    });
 });
