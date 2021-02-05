@@ -12,7 +12,7 @@ sap.ui.define([
      * - https://sapui5.hana.ondemand.com/#/api/sap.m.Avatar and
      * - https://sap.github.io/ui5-webcomponents/playground/components/Avatar/
      */
-    return Control.extend("ui5lib.avatar.AvatarComponent", /** @lends ui5lib.Avatar.AvatarComponent.prototype */ {
+    return Control.extend("ui5lib.avatar.Avatar", /** @lends ui5lib.avatar.Avatar.prototype */ {
         metadata: {
             library: "ui5lib.avatar",
             properties: {

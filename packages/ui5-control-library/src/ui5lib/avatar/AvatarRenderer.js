@@ -12,19 +12,19 @@ sap.ui.define([], () => {
     /**
      * Renders the HTML for the control, using the provided {@link sap.ui.core.RenderManager}.
      * @param {sap.ui.core.RenderManager} oRm RenderManager object
-     * @param {sap.ui.core.Control} oControl An object representation of the control that will be rendered
+     * @param {ui5lib.avatar.Avatar} oAvatar An object representation of the control that will be rendered
      */
     AvatarRenderer.render = (oRM, oAvatar) => {
         oRM.openStart("ui5-avatar", oAvatar);
-        oRM.attr("accessible-name", oAvatar.getAccessibleName());
-        oRM.attr("background-color", oAvatar.getBackgroundColor());
-        oRM.attr("icon", oAvatar.getIcon());
-        oRM.attr("image", oAvatar.getImage());
-        oRM.attr("image-fit-type", oAvatar.getImageFitType());
-        oRM.attr("initials", oAvatar.getInitials());
-        oRM.attr("interactive", oAvatar.getInteractive());
-        oRM.attr("shape", oAvatar.getShape());
-        oRM.attr("size", oAvatar.getSize());
+        if (oAvatar.getAccessibleName()) oRM.attr("accessible-name", oAvatar.getAccessibleName());
+        if (oAvatar.getBackgroundColor()) oRM.attr("background-color", oAvatar.getBackgroundColor());
+        if (oAvatar.getIcon()) oRM.attr("icon", oAvatar.getIcon());
+        if (oAvatar.getImage()) oRM.attr("image", oAvatar.getImage());
+        if (oAvatar.getImageFitType()) oRM.attr("image-fit-type", oAvatar.getImageFitType());
+        if (oAvatar.getInitials()) oRM.attr("initials", oAvatar.getInitials());
+        if (oAvatar.getInteractive()) oRM.attr("interactive", oAvatar.getInteractive());
+        if (oAvatar.getShape()) oRM.attr("shape", oAvatar.getShape());
+        if (oAvatar.getSize()) oRM.attr("size", oAvatar.getSize());
         oRM.openEnd();
         oRM.close("ui5-avatar");
     };
