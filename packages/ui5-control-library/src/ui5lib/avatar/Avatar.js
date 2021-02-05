@@ -1,3 +1,7 @@
+/*!
+ * ${copyright}
+ */
+
 sap.ui.define([
     "sap/ui/core/Control",
     "sap/m/AvatarColor",

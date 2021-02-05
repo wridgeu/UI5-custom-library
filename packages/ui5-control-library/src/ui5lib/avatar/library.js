@@ -2,6 +2,7 @@
  * Initialization Code and shared classes of library `ui5lib.avatar`.
  * ${copyright}
  */
+
 sap.ui.define([
     "sap/ui/core/library",
     "./lib/bundle", /* library dependency created by rollup */
