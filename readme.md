@@ -16,7 +16,7 @@ I'm well aware that it does look a bit like a copy of [@vobus](https://github.co
 
 ## Best Practices
 
-This repository does not necessarily include all the latest best practices. I strongly recommend visiting the [UI5 Community Org.](https://github.com/ui5-community) on github for current and up to date best practice examples/showcases and templates aswell as the recommended documentation. For example: https://github.com/ui5-community/ui5-library-showcase.
+This repository does not necessarily include all the latest best practices. I strongly recommend visiting the [UI5 Community Org.](https://github.com/ui5-community) on github for current and up to date best practice examples/showcases and templates aswell as the recommended [documentation](https://github.com/wridgeu/UI5-custom-library#credits--resources). Check out an example Library [here](https://github.com/ui5-community/ui5-library-showcase).
 
 # Using this Repository
 
