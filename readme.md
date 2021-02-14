@@ -14,6 +14,10 @@ I'm well aware that it does look a bit like a copy of [@vobus](https://github.co
 
 - Another option of adding external (non-UI5, 3rd party) dependencies would be via the usage of [Project-Shims](https://sap.github.io/ui5-tooling/pages/extensibility/ProjectShims/) in tandem to adding the dependencies to the `package.json` as seen in this [example](https://github.com/matz3/ui5con20-ui5-tooling/blob/master/demo-project/packages/library/ui5.yaml) in addition to the usage of the [`sap.ui.loader.config`](https://openui5.hana.ondemand.com/api/sap.ui.loader#overview) to provide a Runtime-Shim before your actual `sap.ui.require` statement (to not pollute global scope at dev-time)as seen [here](https://github.com/matz3/ui5con20-ui5-tooling/blob/master/demo-project/packages/library/src/ui5con20/library/Chart.js) or [here](https://github.com/SAP/openui5/blob/master/src/sap.ui.codeeditor/src/sap/ui/codeeditor/CodeEditor.js#L5-L23).
 
+## Best Practices
+
+This repository does not necessarily include all the latest best practices. I strongly recommend visiting the [UI5 Community Org.](https://github.com/ui5-community) on github for current and up to date best practice examples/showcases and templates aswell as the recommended documentation. For example: https://github.com/ui5-community/ui5-library-showcase.
+
 # Using this Repository
 
 ## Initialize the Repository
