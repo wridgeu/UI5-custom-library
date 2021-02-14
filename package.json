@@ -4,13 +4,13 @@
   "private": true,
   "description": "A test repository to learn how to create a small library and how to consume it",
   "scripts": {
-    "ui:start:dev": "cd packages/ui5-library-consumption/ && yarn start",
-    "ui:init:start:dev": "yarn ctrllib:build && yarn themelib:build && cd packages/ui5-library-consumption/ && yarn start",
-    "ui:init:start:build": "yarn ctrllib:build && yarn themelib:build && cd packages/ui5-library-consumption/ && yarn build && yarn start:build",
-    "ctrllib:dev": "cd packages/ui5-control-library/ && yarn watch",
-    "ctrllib:build": "cd packages/ui5-control-library/ && yarn _build",
-    "themelib:dev": "cd packages/ui5-theme-library/ && yarn watch",
-    "themelib:build": "cd packages/ui5-theme-library/ && yarn _build"
+    "ui:start:dev": "yarn workspace ui5-library-consumption start",
+    "ui:init:start:dev": "yarn ctrllib:build && yarn themelib:build && yarn workspace ui5-library-consumption start",
+    "ui:init:start:build": "yarn ctrllib:build && yarn themelib:build && yarn workspace ui5-library-consumption build && yarn start:build",
+    "ctrllib:dev": "yarn workspace ui5-control-library watch",
+    "ctrllib:build": "yarn workspace ui5-control-library _build",
+    "themelib:dev": "yarn workspace ui5-theme-library watch",
+    "themelib:build": "yarn workspace ui5-theme-library _build"
   },
   "workspaces": [
     "packages/*"
