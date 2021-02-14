@@ -25,7 +25,7 @@ sap.ui.define([
                 icon: { type: "string", defaultValue: "" },
                 image: { type: "string", defaultValue: "" },
                 imageFitType: { type: "sap.m.AvatarImageFitType", defaultValue: AvatarImageType.Cover },
-                initials: { type: "string", defaultValue: ""},
+                initials: { type: "string", defaultValue: "" },
                 interactive: { type: "boolean", defaultValue: false},
                 shape: { type: "sap.m.AvatarShape", defaultValue: AvatarShape.Circle },
                 size: { type: "sap.m.AvatarSize", defaultValue: AvatarSize.S },
