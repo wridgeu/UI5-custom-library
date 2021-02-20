@@ -3,5 +3,6 @@
         "packages/**/*.js",
         "packages/**/*.json",
         "node_modules/@openui5/ts-types/types",
-    ]
+    ],
+    "exclude": ["node_modules"]
 }
