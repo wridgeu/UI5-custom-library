@@ -64,10 +64,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@openui5/ts-types@^1.60.5":
-  version "1.60.5"
-  resolved "https://registry.yarnpkg.com/@openui5/ts-types/-/ts-types-1.60.5.tgz#cf0bdf70f91d4a145e16c92fbc95ba990c8f0400"
-  integrity sha512-syzrhxH1JNfYS+FccnPUjxsGwQhW3mvwJpx1oQhZhh7VM7matWstLH9ObPtI3oPj3SO+IMgjpyBjzSUHZo5r4A==
+"@openui5/ts-types@^1.91.0":
+  version "1.91.0"
+  resolved "https://registry.yarnpkg.com/@openui5/ts-types/-/ts-types-1.91.0.tgz#4dc9b772267cdf4c424985ec2d580ea8cbdd4c99"
+  integrity sha512-vbzlbD9VczXJgoJ/O1jAdXxKU5Y20WmbyOkqVO6sYnonZsdYBfo6SkU3NHcO6E5PKrbLjCM2n5dCv/Kp3I1OpQ==
 
 "@sap-theming/theming-base-content@11.1.27":
   version "11.1.27"
