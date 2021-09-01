@@ -16,6 +16,6 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@openui5/ts-types": "^1.92.0"
+    "@openui5/ts-types": "^1.93.0"
   }
 }
