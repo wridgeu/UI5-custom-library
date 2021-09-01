@@ -122,10 +122,10 @@
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-1.0.6.tgz#569b8a08121d3203398290d602d84d73c8dcf5da"
   integrity sha512-230RC8sFeHoT6sSUlRO6a8cAnclO06eeiq1QDfiv2FGCLWFvvERWgwIQD4FWqD9A69BN7Lzee4OXwoMVnnsWDw==
 
-"@ui5/builder@^2.9.4":
-  version "2.9.4"
-  resolved "https://registry.yarnpkg.com/@ui5/builder/-/builder-2.9.4.tgz#582fecbb5c622dea42fe7292a9d3198b1ba02e0c"
-  integrity sha512-KfoGfS2Wek0qojX+QvaU6otkknEf97RK111aMfxHlos+N7YPL4f190aFqaTp+LE5YI5BrTz23VGH/By+Qqo0cw==
+"@ui5/builder@^2.9.4", "@ui5/builder@^2.9.5":
+  version "2.9.5"
+  resolved "https://registry.yarnpkg.com/@ui5/builder/-/builder-2.9.5.tgz#6b6e6814d063c2ceb7e42d9645fca72c06ad170d"
+  integrity sha512-aq/RSweNPKWMNW7Izp7X5PBuaSaUKXd3OBSKcXn7Q2aRl2eznIuMPK1UsSlMCU9nsO2w9/Mp3Uh77XPHGe2i0A==
   dependencies:
     "@ui5/fs" "^2.0.6"
     "@ui5/logger" "^2.0.1"
@@ -134,7 +134,7 @@
     escope "^3.6.0"
     espree "^6.2.1"
     globby "^11.0.4"
-    graceful-fs "^4.2.6"
+    graceful-fs "^4.2.8"
     jsdoc "^3.6.7"
     less-openui5 "^0.11.2"
     make-dir "^3.1.0"
@@ -147,17 +147,17 @@
     xml2js "^0.4.23"
     yazl "^2.5.1"
 
-"@ui5/cli@^2.12.0":
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/@ui5/cli/-/cli-2.12.0.tgz#0552f1c9b5e6de3936d7c3bf81ca6cdc7cf9f9d6"
-  integrity sha512-yQ69+I8+feknrkGBAgt5uV40h7WrJ9AU6k6PjJqBZovfMOtGLxf3kPV4CjCtkGilT9DCwFWNDHWtKkO1gEn0Ig==
+"@ui5/cli@^2.12.1":
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/@ui5/cli/-/cli-2.12.1.tgz#a6d845bd255edcb1140ff397a9c778c4d1a2cdef"
+  integrity sha512-ShvmU/bPXM/PYoCCpxo2+B8UY7xqJXkybFyI+pSR8/KukED/s8n54DI+m1a7gdpePIuicUBBDORzSgS7eEVN8w==
   dependencies:
-    "@ui5/builder" "^2.9.4"
+    "@ui5/builder" "^2.9.5"
     "@ui5/fs" "^2.0.6"
     "@ui5/logger" "^2.0.1"
     "@ui5/project" "^2.5.0"
     "@ui5/server" "^2.3.1"
-    chalk "^4.1.1"
+    chalk "^4.1.2"
     data-with-position "^0.4.1"
     import-local "^3.0.2"
     js-yaml "^4.1.0"
@@ -676,10 +676,10 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
-  integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
+chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -1878,6 +1878,11 @@ graceful-fs@^4.2.6:
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
+
+graceful-fs@^4.2.8:
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
+  integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
 
 handle-thing@^2.0.0:
   version "2.0.1"
