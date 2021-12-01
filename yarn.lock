@@ -122,10 +122,10 @@
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-1.0.6.tgz#569b8a08121d3203398290d602d84d73c8dcf5da"
   integrity sha512-230RC8sFeHoT6sSUlRO6a8cAnclO06eeiq1QDfiv2FGCLWFvvERWgwIQD4FWqD9A69BN7Lzee4OXwoMVnnsWDw==
 
-"@ui5/builder@^2.11.1":
-  version "2.11.1"
-  resolved "https://registry.yarnpkg.com/@ui5/builder/-/builder-2.11.1.tgz#e0ce1d8ad2554cc80462130573d94b2a02989c76"
-  integrity sha512-6WAJwuilKVxYFg9qYGUQ4O36qC0VmjEjArJzwftnORbUuEqN4F1ygLYiTqNnImvuCILDzoq4OBj2ecxYOItFiQ==
+"@ui5/builder@^2.11.1", "@ui5/builder@^2.11.2":
+  version "2.11.2"
+  resolved "https://registry.yarnpkg.com/@ui5/builder/-/builder-2.11.2.tgz#0c0effbf77c6962ce16a306b4e9a7082f35a1d33"
+  integrity sha512-kO05d9hjRyLzWs/cy09EXUnKbrRJBsvGne5OcXGWSpmIl9glW54qBVcMBPlxTDltOGbal1p1sZVje+uPAbnxDQ==
   dependencies:
     "@ui5/fs" "^2.0.6"
     "@ui5/logger" "^2.0.1"
@@ -148,11 +148,11 @@
     yazl "^2.5.1"
 
 "@ui5/cli@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@ui5/cli/-/cli-2.14.0.tgz#cedba0911b0ed74435f2726f22838fe845d42da7"
-  integrity sha512-xQBebF8vC0OavySnrjU87sHS6aMLBVufegqdSGh8qZjlLIdDXD2VElgMK38LpOaaPaFGPWI2dgVIYD3VEixXBg==
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@ui5/cli/-/cli-2.14.1.tgz#b2e5f84fef8cd9d84d36fc07794a145274233819"
+  integrity sha512-ObPlOrYICjag8/8000dFZHqPC7ioL/gmSgEyyzOJMYeRDDk5NGvIKTXFvRt8/y9jDt2nichGhwphAeBvzzFkNg==
   dependencies:
-    "@ui5/builder" "^2.11.1"
+    "@ui5/builder" "^2.11.2"
     "@ui5/fs" "^2.0.6"
     "@ui5/logger" "^2.0.1"
     "@ui5/project" "^2.6.0"
