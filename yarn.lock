@@ -122,10 +122,10 @@
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
   integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
 
-"@ui5/builder@^2.11.1", "@ui5/builder@^2.11.2":
-  version "2.11.2"
-  resolved "https://registry.yarnpkg.com/@ui5/builder/-/builder-2.11.2.tgz#0c0effbf77c6962ce16a306b4e9a7082f35a1d33"
-  integrity sha512-kO05d9hjRyLzWs/cy09EXUnKbrRJBsvGne5OcXGWSpmIl9glW54qBVcMBPlxTDltOGbal1p1sZVje+uPAbnxDQ==
+"@ui5/builder@^2.11.1", "@ui5/builder@^2.11.3":
+  version "2.11.3"
+  resolved "https://registry.yarnpkg.com/@ui5/builder/-/builder-2.11.3.tgz#dae26de871805fb21321fc6b86b1a78ad5c4e721"
+  integrity sha512-sS4mupTxmxTPXMPIReKFpiviW6aaykPVDc6d2cQuCeEb8rg+NMNAM1RWydKua6iLZg4Ur6MX+Qc/eIiYGLBE/Q==
   dependencies:
     "@ui5/fs" "^2.0.6"
     "@ui5/logger" "^2.0.1"
@@ -143,16 +143,16 @@
     replacestream "^4.0.3"
     rimraf "^3.0.2"
     semver "^7.3.5"
-    terser "^5.9.0"
+    terser "^5.10.0"
     xml2js "^0.4.23"
     yazl "^2.5.1"
 
-"@ui5/cli@^2.14.0":
-  version "2.14.1"
-  resolved "https://registry.yarnpkg.com/@ui5/cli/-/cli-2.14.1.tgz#b2e5f84fef8cd9d84d36fc07794a145274233819"
-  integrity sha512-ObPlOrYICjag8/8000dFZHqPC7ioL/gmSgEyyzOJMYeRDDk5NGvIKTXFvRt8/y9jDt2nichGhwphAeBvzzFkNg==
+"@ui5/cli@^2.14.2":
+  version "2.14.2"
+  resolved "https://registry.yarnpkg.com/@ui5/cli/-/cli-2.14.2.tgz#4369719017c1ff1958d01a9e2ea565bcbdc61708"
+  integrity sha512-tamYGrsZ1opEg+KP4DihduVh27nw8M6MUTD+gkFzWZ+eelPJr4DeC9E84rDdUev5aILp2lW4QBaBeM8bF+RjvA==
   dependencies:
-    "@ui5/builder" "^2.11.2"
+    "@ui5/builder" "^2.11.3"
     "@ui5/fs" "^2.0.6"
     "@ui5/logger" "^2.0.1"
     "@ui5/project" "^2.6.0"
@@ -4072,10 +4072,10 @@ terser@^5.0.0:
     source-map "~0.7.2"
     source-map-support "~0.5.19"
 
-terser@^5.9.0:
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.9.0.tgz#47d6e629a522963240f2b55fcaa3c99083d2c351"
-  integrity sha512-h5hxa23sCdpzcye/7b8YqbE5OwKca/ni0RQz1uRX3tGh8haaGHqcuSqbGRybuAKNdntZ0mDgFNXPJ48xQ2RXKQ==
+terser@^5.10.0:
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.10.0.tgz#b86390809c0389105eb0a0b62397563096ddafcc"
+  integrity sha512-AMmF99DMfEDiRJfxfY5jj5wNH/bYO09cniSqhfoyxc8sFoYIgkJy86G04UoZU5VjlpnplVu0K6Tx6E9b5+DlHA==
   dependencies:
     commander "^2.20.0"
     source-map "~0.7.2"
