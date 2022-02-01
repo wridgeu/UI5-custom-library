@@ -147,10 +147,10 @@
     xml2js "^0.4.23"
     yazl "^2.5.1"
 
-"@ui5/cli@^2.14.2":
-  version "2.14.2"
-  resolved "https://registry.yarnpkg.com/@ui5/cli/-/cli-2.14.2.tgz#4369719017c1ff1958d01a9e2ea565bcbdc61708"
-  integrity sha512-tamYGrsZ1opEg+KP4DihduVh27nw8M6MUTD+gkFzWZ+eelPJr4DeC9E84rDdUev5aILp2lW4QBaBeM8bF+RjvA==
+"@ui5/cli@^2.14.4":
+  version "2.14.4"
+  resolved "https://registry.yarnpkg.com/@ui5/cli/-/cli-2.14.4.tgz#0217afe6c8e58b8207d8abb9ebbb8568c9abe961"
+  integrity sha512-nhggtKrqhmRzBDwZyssRLxPATWa+hDYl7XQpk7kVfPqbj0cE0+Iv1Zd0E9q5cj4x/zQpStruUEIMrSeXWPK7cA==
   dependencies:
     "@ui5/builder" "^2.11.3"
     "@ui5/fs" "^2.0.6"
@@ -159,7 +159,7 @@
     "@ui5/server" "^2.4.0"
     chalk "^4.1.2"
     data-with-position "^0.5.0"
-    import-local "^3.0.3"
+    import-local "^3.1.0"
     js-yaml "^4.1.0"
     open "^7.4.2"
     semver "^7.3.5"
@@ -2065,10 +2065,10 @@ import-lazy@^2.1.0:
   resolved "https://registry.yarnpkg.com/import-lazy/-/import-lazy-2.1.0.tgz#05698e3d45c88e8d7e9d92cb0584e77f096f3e43"
   integrity sha1-BWmOPUXIjo1+nZLLBYTnfwlvPkM=
 
-import-local@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/import-local/-/import-local-3.0.3.tgz#4d51c2c495ca9393da259ec66b62e022920211e0"
-  integrity sha512-bE9iaUY3CXH8Cwfan/abDKAxe1KGT9kyGsBPqf6DMK/z0a2OzAsrukeYNgIH6cH5Xr452jb1TUL8rSfCLjZ9uA==
+import-local@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/import-local/-/import-local-3.1.0.tgz#b4479df8a5fd44f6cdce24070675676063c95cb4"
+  integrity sha512-ASB07uLtnDs1o6EHjKpX34BKYDSqnFerfTOJL2HvMqF70LnxpjkzDB8J44oT9pu4AMPkQwf8jl6szgvNd2tRIg==
   dependencies:
     pkg-dir "^4.2.0"
     resolve-cwd "^3.0.0"
