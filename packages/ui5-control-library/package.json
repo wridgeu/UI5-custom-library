@@ -30,10 +30,10 @@
   "author": "Marco Beier",
   "license": "ISC",
   "devDependencies": {
-    "@ui5/webcomponents": "^1.1.2",
+    "@ui5/webcomponents": "^1.2.4",
     "npm-watch": "^0.11.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.68.0",
+    "rollup": "^2.70.1",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^7.0.2"
   }
