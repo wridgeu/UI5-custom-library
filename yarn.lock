@@ -4210,10 +4210,10 @@ uc.micro@^1.0.1, uc.micro@^1.0.5:
   resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
   integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
 
-ui5-middleware-livereload@^0.5.9:
-  version "0.5.9"
-  resolved "https://registry.yarnpkg.com/ui5-middleware-livereload/-/ui5-middleware-livereload-0.5.9.tgz#4d413a23da447cb2173769d3545aa15d77a4ed0a"
-  integrity sha512-w2gvxajwH7/zEGo9+7shJsZiQV30ceYNG7kN5bTUohtsepycrjlczX39p5hIFkuUnkrOmW7kjc9DdFApHlIpzQ==
+ui5-middleware-livereload@^0.5.11:
+  version "0.5.11"
+  resolved "https://registry.yarnpkg.com/ui5-middleware-livereload/-/ui5-middleware-livereload-0.5.11.tgz#37baa57b1d5fa805767d7bceb3e0d832fba8ebca"
+  integrity sha512-c/Qr5dHBaLvYrLSP1r+FHbqhssD9pjMCOT5epQ2DMNNqRV/r0GpccYFMpaxq3z5FhQZmPoNZIN9NeYVLdzbqDw==
   dependencies:
     "@ui5/logger" "^2.0.1"
     connect-livereload "^0.6.1"
