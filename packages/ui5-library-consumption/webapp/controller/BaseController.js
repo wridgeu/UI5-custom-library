@@ -2,13 +2,10 @@ sap.ui.define([
   "sap/ui/core/mvc/Controller",
   "sap/ui/core/routing/History",
   "sap/ui/core/UIComponent",
-  "mrb/applibraryconsumption/model/formatter"
-], function(Controller, History, UIComponent, formatter) {
+], function(Controller, History, UIComponent) {
   "use strict";
 
   return Controller.extend("mrb.applibraryconsumption.controller.BaseController", {
-
-    formatter: formatter,
 
     /**
      * Convenience method for getting the view model by name in every controller of the application.

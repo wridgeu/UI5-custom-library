@@ -12,14 +12,7 @@
   },
   "sap.ui": {
     "technology": "UI5",
-    "icons": {
-      "icon": "",
-      "favIcon": "",
-      "phone": "",
-      "phone@2": "",
-      "tablet": "",
-      "tablet@2": ""
-    },
+    "icons": {},
     "deviceTypes": {
       "desktop": true,
       "tablet": true,
@@ -35,7 +28,7 @@
       "id": "idAppControl"
     },
     "dependencies": {
-      "minUI5Version": "1.60.0",
+      "minUI5Version": "1.101.1",
       "libs": {
         "sap.ui.core": {},
         "sap.m": {},

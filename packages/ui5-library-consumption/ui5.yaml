@@ -1,14 +1,15 @@
-specVersion: "2.2"
+specVersion: "2.6"
 metadata:
   name: ui5-library-consumption
 type: application
 framework:
   name: OpenUI5
-  version: 1.85.2
+  version: 1.101.0
   libraries:
     - name: sap.m
     - name: sap.ui.core
     - name: sap.ui.layout
+    - name: themelib_sap_horizon
 server:
   customMiddleware:
     - name: ui5-middleware-livereload
