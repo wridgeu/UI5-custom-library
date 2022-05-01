@@ -9,13 +9,13 @@
     },
     "sap.ui5": {
         "dependencies": {
-            "minUI5Version": "1.85",
+            "minUI5Version": "1.101",
             "libs": {
                 "sap.ui.core": {
-                    "minVersion": "1.85.2"
+                    "minVersion": "1.101.1"
                 },
                 "sap.m": {
-                    "minVersion": "1.85.2"
+                    "minVersion": "1.101.1"
                 }
             }
         },
